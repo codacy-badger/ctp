@@ -1,0 +1,1 @@
+[[ "$(./test/unit/racy 2>&1 | grep "data race")" != "" ]] && exit 0 || exit 1

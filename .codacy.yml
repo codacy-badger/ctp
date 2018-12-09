@@ -1,0 +1,7 @@
+language: cpp
+
+exclude_paths:
+  - '**.md'
+  - '**.txt'
+  - 'test/unit/racy.cc'
+  - 'test/unit/leaky.cc'
